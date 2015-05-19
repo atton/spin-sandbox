@@ -1,4 +1,9 @@
-active proctype Hello() {
+/*
+    hello world
+    usage: spin hello.pml
+*/
+
+proctype Hello() {
     printf("Hello process, my pid is %d\n", _pid);
 }
 
