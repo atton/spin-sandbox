@@ -1,3 +1,9 @@
+/*
+    terminate counter example
+    $ spin counter.pml
+    $ sping -a counter.pml && gcc pan.c && ./a.out
+*/
+
 byte count = 10;
 
 proctype counter() {
